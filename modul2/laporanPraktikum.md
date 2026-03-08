@@ -34,7 +34,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](Laprak\template\modul2\output\Output-soal1.png)
+![Screenshot Output Unguided 1_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/modul2/output/Output-soal1.png)
 [penjelasan]
 What this program does is get three strings as inputs entering them into variables one, two, and three, then it outputs all strings combined with spaces separating them, after which is then assigns the variable one input to a variable temp, two to one, three to two, and temp to three in order, then outputs the new string combination with spaces separating them.
 
