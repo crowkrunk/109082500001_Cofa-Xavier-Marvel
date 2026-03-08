@@ -62,6 +62,6 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](C:\Code\Laprak\template\modul2\Soal2.go)
+![Screenshot Output Unguided 1_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/modul2/output/Output-soal2.png)
 [penjelasan]
 Sebuah program yang menerima masukan berupa warna dari 4 gelas reaksi sebanyak 5 kali. Kemudian program akan menampilkan nilai benar jika warna yang sesuai berturut-turut adalah 'merah', 'kuning','hijau', dan 'ungu'.
