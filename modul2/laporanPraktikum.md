@@ -66,11 +66,6 @@ func main() {
 [penjelasan]
 Sebuah program yang menerima masukan berupa warna dari 4 gelas reaksi sebanyak 5 kali. Kemudian program akan menampilkan nilai benar jika warna yang sesuai berturut-turut adalah 'merah', 'kuning','hijau', dan 'ungu'.
 
-##### Output 
-![Screenshot Output Unguided 1_1](C:\Code\Laprak\template\modul2\Soal2.go)
-[penjelasan]
-Sebuah program yang menerima masukan berupa warna dari 4 gelas reaksi sebanyak 5 kali. Kemudian program akan menampilkan nilai benar jika warna yang sesuai berturut-turut adalah 'merah', 'kuning','hijau', dan 'ungu'.
-
 ### 3. [Soal]
 #### soal3.go
 
@@ -106,7 +101,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](Laprak\template\modul2\output\Output-soal1.png)
+![Screenshot Output Unguided 1_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/modul2/output/Output-soal3.png)
 [penjelasan]
 this program calculates shipping cost based on parcel weight.
 The shipping fee is IDR 10,000 per kg. If the remaining weight is less than 500 grams, the additional shipping fee is only IDR 5 per gram. However, if the weight is less than 500 grams, an additional fee of IDR 15 per gram will be charged. The remaining weight (less than 1 kg) is free if the total weight is more than 10 kg.
