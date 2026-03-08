@@ -64,7 +64,7 @@ func main() {
 ##### Output 
 ![Screenshot Output Unguided 1_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/modul2/output/Output-soal2.png)
 [penjelasan]
-This is a program that receives input in the form of the colors of four test tubes five times. The program then displays a true value if the corresponding colors are 'red', 'yellow', 'green', or 'purple', respectively.
+This is a program that receives input in the form of the colors of four test tubes five times. The program then displays a true value if the corresponding colors are 'merah', 'kuning', 'hijau', or 'ungu', respectively.
 
 ### 3. [Soal]
 #### soal3.go
