@@ -96,3 +96,100 @@ func Factory(n int) {
 ![Screenshot Output Unguided 1_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/modul5/Output/Output-soal3.png)
 [penjelasan]
 This program finds the factors of an input by using the recursive function Factory. It starts by getting the input using fmt.Scan(). Then Factory checks if n > input and if input%n is equal to 0, with if input%n being equal to zero, it prints n using fmt.Print, then n is increased by 1; this repeats until n is larger than the input.
+### 4. [Soal]
+#### soal4.go
+
+```go
+package main
+
+import "fmt"
+
+var m int = 1
+var k int
+
+func Nto1toN(n, k int) {
+	if n == 1 {
+		m = -1
+	}
+	if n == k && m == -1 {
+		fmt.Print(k)
+	} else {
+		fmt.Print(n, " ")
+		Nto1toN(n-m, k)
+	}
+}
+
+func main() {
+	var x int
+	fmt.Scan(&x)
+	Nto1toN(x, x)
+}
+```
+### Output Unguided :
+
+##### Output 
+![Screenshot Output Unguided 1_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/modul5/Output/Output-soal4.png)
+[penjelasan]
+This program uses the recursive function Nto1toN to print a sequence of numbers from x to 1 to x by first declaring a variable outside the function to be used in the function, and using n as the numerator and k as the limit after n reaches 1, printing the n until 1 which then changes the modifier m to -1, two minuses become a plus and increases n until k.
+### 5. [Soal]
+#### soal5.go
+
+```go
+package main
+
+import "fmt"
+
+func allodds(n int, i int) {
+	if i > n {
+		return
+	}
+	if i%2 == 1 {
+		fmt.Print(i, " ")
+	}
+	allodds(n, i+1)
+}
+
+func main() {
+	var input int
+	fmt.Scan(&input)
+	allodds(input, 1)
+}
+
+```
+### Output Unguided :
+
+##### Output 
+![Screenshot Output Unguided 1_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/modul5/Output/Output-soal5.png)
+[penjelasan]
+This program recursively prints all odd numbers from 1 to a number n, using i to track the current number and stopping when i is larger than n.
+### 6. [Soal]
+#### soal6.go
+
+```go
+package main
+
+import "fmt"
+
+func power(x, n int) int {
+	if n == 0 {
+		return 1
+	}
+	if n == 1 {
+		return x
+	}
+	return x * power(x, n-1)
+}
+
+func main() {
+	var input1, input2 int
+	fmt.Scan(&input1, &input2)
+	fmt.Print(power(input1, input2))
+}
+
+```
+### Output Unguided :
+
+##### Output 
+![Screenshot Output Unguided 1_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/modul5/Output/Output-soal6.png)
+[penjelasan]
+This is a program that implements recursion to find the power of two numbers. by first checking if the power is equal to 1, which returns 1 or zero, which returns x, then returns x to the power of x-1 times x.
