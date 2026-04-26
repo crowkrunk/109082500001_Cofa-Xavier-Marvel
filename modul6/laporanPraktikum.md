@@ -241,7 +241,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/modul5/Output/Output-soal3.png)
+![Screenshot Output Unguided 1_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/modul6/Output/Output-soal3.png)
 [penjelasan]
 	This program uses the append function to add a string to the end of a slice with the condition being if Apoints is greater than Bpoints then the string that represents A is added to the Winners array.
 ### 4. [Soal]
