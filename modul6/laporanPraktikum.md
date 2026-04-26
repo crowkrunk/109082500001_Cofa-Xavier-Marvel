@@ -184,20 +184,22 @@ func main() {
 ##### Output 
 ![Screenshot Output Unguided 1_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/modul6/Output/Output-soal2.png)
 [penjelasan]
-	This program contains many functions, they are as follows:
-	inputToArray, that uses the append function in combo with a dynamic array, or slice, to add numbers to the end of the array without limits, and itterates by being a recursive function.
+This program contains many functions, they are as follows:
 
-	displayEvenOrOdd, that uses recursion to traverse the slice, checking each index to print values that match the even or odd criteria, and continues calling itself with an incremented index.
+inputToArray, that uses the append function in combo with a dynamic array, or slice, to add numbers to the end of the array without limits, and itterates by being a recursive function.
 
-	DisplayMultiples, that uses a loop to iterate through the slice at intervals of x, accessing elements at indices that are multiples of X, and prints them until the end of the array is reached without using using a for loop.
+displayEvenOrOdd, that uses recursion to traverse the slice, checking each index to print values that match the even or odd criteria, and continues calling itself with an incremented index.
 
-	deleteTheIndex, that uses the append function to create a new slice by merging the parts before and after the target index, effectively deleting the element.
+DisplayMultiples, that uses a loop to iterate through the slice at intervals of x, accessing elements at indices that are multiples of X, and prints them until the end of the array is reached without using using a for loop.
 
-	Mean, that uses a loop to accumulate the sum of all integer elements, then performs a type conversion to float64 before dividing by the array length to return a decimal average.
+deleteTheIndex, that uses the append function to create a new slice by merging the parts before and after the target index, effectively deleting the element.
 
-	standardHUH, that uses a loop to calculate the sum of squared differences from the mean for every element, computes the variance by dividing by the total count, and returns the square root to display the standard deviation.
+Mean, that uses a loop to accumulate the sum of all integer elements, then performs a type conversion to float64 before dividing by the array length to return a decimal average.
 
-	main, calling all the functions above and declaring nums and X.
+standardHUH, that uses a loop to calculate the sum of squared differences from the mean for every element, computes the variance by dividing by the total count, and returns the square root to display the standard deviation.
+
+main, calling all the functions above and declaring nums and X.
+
 ### 3. [Soal]
 #### soal3.go
 
@@ -334,12 +336,12 @@ func main() {
 [penjelasan]
 	from top to bottom the functions are:
 
-	FillArraywithRUNES, that uses a fixed-size array of runes and a loop to read string inputs character-by-character, skipping spaces and stopping immediately when a dot (.) is encountered, filling the array, table, sequentially until the capacity is reached.
+FillArraywithRUNES, that uses a fixed-size array of runes and a loop to read string inputs character-by-character, skipping spaces and stopping immediately when a dot (.) is encountered, filling the array, table, sequentially until the capacity is reached.
 
-	printArrayOfRunesAsStrings, that uses a loop to iterate through the table, converting each individual rune back into a string to reconstruct and print the original text sequence.
+printArrayOfRunesAsStrings, that uses a loop to iterate through the table, converting each individual rune back into a string to reconstruct and print the original text sequence.
 
-	tabelFlip, that uses front and back indices within a loop to swap characters from opposite ends of the array simultaneously, reversing the entire sequence in-place without creating a new array.
+tabelFlip, that uses front and back indices within a loop to swap characters from opposite ends of the array simultaneously, reversing the entire sequence in-place without creating a new array.
 
-	checkpali, that uses a temporary copy of the table to then reverse it using tabelflip, then uses a loop to compare the original characters against the reversed ones one by one, returning false immediately if a mismatch is found or true if the loop completes successfully.
+checkpali, that uses a temporary copy of the table to then reverse it using tabelflip, then uses a loop to compare the original characters against the reversed ones one by one, returning false immediately if a mismatch is found or true if the loop completes successfully.
 
-	all functions are called in main with pretty printfs to give context.
+all functions are called in main with pretty printfs to give context.
