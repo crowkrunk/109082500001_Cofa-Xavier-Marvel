@@ -206,126 +206,140 @@ package main
 
 import "fmt"
 
-var input int
+func whoWins(Clubs [2]string) []string {
+	var Apoints, Bpoints int
+	var Winners []string
+	for i := 1; ; i++ {
+		fmt.Printf("Round %d : ", i)
+		fmt.Scan(&Apoints, &Bpoints)
+		if Apoints < 0 || Bpoints < 0 {
+			break
+		}
+		if Apoints > Bpoints {
+			Winners = append(Winners, Clubs[0])
+		} else if Apoints < Bpoints {
+			Winners = append(Winners, Clubs[1])
+		} else if Apoints == Bpoints {
+			Winners = append(Winners, "Draw")
+		}
+	}
+	return Winners
+}
 
 func main() {
-	fmt.Scan(&input)
-	Factory(1)
-
-}
-
-func Factory(n int) {
-	if n > input {
-		fmt.Println()
-	} else {
-		if input%n == 0 {
-			fmt.Print(n, " ")
-		}
-		Factory(n + 1)
+	var Clubs [2]string
+	fmt.Printf("Klub A :")
+	fmt.Scan(&Clubs[0])
+	fmt.Printf("Klub B :")
+	fmt.Scan(&Clubs[1])
+	Winner := whoWins(Clubs)
+	for i := 0; len(Winner) > i; i++ {
+		fmt.Printf("Hasil %d : %s \n", len(Winner), i+1, Winner[i])
 	}
 }
-
 ```
 ### Output Unguided :
 
 ##### Output 
 ![Screenshot Output Unguided 1_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/modul5/Output/Output-soal3.png)
 [penjelasan]
-This program finds the factors of an input by using the recursive function Factory. It starts by getting the input using fmt.Scan(). Then Factory checks if n > input and if input%n is equal to 0, with if input%n being equal to zero, it prints n using fmt.Print, then n is increased by 1; this repeats until n is larger than the input.
+	This program uses the append function to add a string to the end of a slice with the condition being if Apoints is greater than Bpoints then the string that represents A is added to the Winners array.
 ### 4. [Soal]
 #### soal4.go
 
 ```go
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
-var m int = 1
-var k int
+const NMAX int = 127
 
-func Nto1toN(n, k int) {
-	if n == 1 {
-		m = -1
+type tabel [NMAX]rune
+
+func FillArraywithRUNES(t *tabel, n *int) {
+	*n = 0
+	for *n <= NMAX {
+		var input string
+		fmt.Scan(&input)
+		for _, char := range input {
+			if *n >= NMAX {
+				break
+			}
+			if char == '.' {
+				return
+			}
+			if char == ' ' {
+				continue
+			}
+			t[*n] = char
+			*n++
+		}
 	}
-	if n == k && m == -1 {
-		fmt.Print(k)
-	} else {
-		fmt.Print(n, " ")
-		Nto1toN(n-m, k)
+}
+
+func printArrayOfRunesAsStrings(t tabel, n int) {
+	for i := 0; i < n; i++ {
+		fmt.Print(string(t[i]))
 	}
+	fmt.Println()
+}
+
+func tabelFlip(t *tabel, n int) {
+	front := 0
+	back := n - 1
+	for front < back {
+		t[front], t[back] = t[back], t[front]
+		front++
+		back--
+	}
+}
+
+func checkpali(t tabel, n int) bool {
+	var tf tabel = t
+	tabelFlip(&tf, n)
+	front := 0
+	back := n - 1
+	for front < back {
+		if t[front] == t[back] {
+			front++
+			back--
+		} else {
+			return false
+		}
+	}
+	return true
 }
 
 func main() {
-	var x int
-	fmt.Scan(&x)
-	Nto1toN(x, x)
-}
-```
-### Output Unguided :
+	var tab tabel
+	var m int
+	fmt.Printf("Teks	:")
+	FillArraywithRUNES(&tab, &m)
 
-##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/modul5/Output/Output-soal4.png)
-[penjelasan]
-This program uses the recursive function Nto1toN to print a sequence of numbers from x to 1 to x by first declaring a variable outside the function to be used in the function, and using n as the numerator and k as the limit after n reaches 1, printing the n until 1 which then changes the modifier m to -1, two minuses become a plus and increases n until k.
-### 5. [Soal]
-#### soal5.go
+	fmt.Printf("Reverse teks	:")
+	tabelFlip(&tab, m)
+	printArrayOfRunesAsStrings(tab, m)
 
-```go
-package main
+	fmt.Printf("Palindrom	? %t", checkpali(tab, m))
 
-import "fmt"
-
-func allodds(n int, i int) {
-	if i > n {
-		return
-	}
-	if i%2 == 1 {
-		fmt.Print(i, " ")
-	}
-	allodds(n, i+1)
-}
-
-func main() {
-	var input int
-	fmt.Scan(&input)
-	allodds(input, 1)
-}
-
-```
-### Output Unguided :
-
-##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/modul5/Output/Output-soal5.png)
-[penjelasan]
-This program recursively prints all odd numbers from 1 to a number n, using i to track the current number and stopping when i is larger than n.
-### 6. [Soal]
-#### soal6.go
-
-```go
-package main
-
-import "fmt"
-
-func power(x, n int) int {
-	if n == 0 {
-		return 1
-	}
-	if n == 1 {
-		return x
-	}
-	return x * power(x, n-1)
-}
-
-func main() {
-	var input1, input2 int
-	fmt.Scan(&input1, &input2)
-	fmt.Print(power(input1, input2))
 }
 
 ```
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/modul5/Output/Output-soal6.png)
+![Screenshot Output Unguided 1_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/modul6/Output/Output-soal4.png)
 [penjelasan]
-This is a program that implements recursion to find the power of two numbers. by first checking if the power is equal to 1, which returns 1 or zero, which returns x, then returns x to the power of x-1 times x.
+	from top to bottom the functions are:
+
+	FillArraywithRUNES, that uses a fixed-size array of runes and a loop to read string inputs character-by-character, skipping spaces and stopping immediately when a dot (.) is encountered, filling the array, table, sequentially until the capacity is reached.
+
+	printArrayOfRunesAsStrings, that uses a loop to iterate through the table, converting each individual rune back into a string to reconstruct and print the original text sequence.
+
+	tabelFlip, that uses front and back indices within a loop to swap characters from opposite ends of the array simultaneously, reversing the entire sequence in-place without creating a new array.
+
+	checkpali, that uses a temporary copy of the table to then reverse it using tabelflip, then uses a loop to compare the original characters against the reversed ones one by one, returning false immediately if a mismatch is found or true if the loop completes successfully.
+
+	all functions are called in main with pretty printfs to give context.
