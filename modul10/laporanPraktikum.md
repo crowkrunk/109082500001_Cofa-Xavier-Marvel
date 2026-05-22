@@ -55,7 +55,7 @@ func main() {
 ##### Output 
 ![Screenshot Output Unguided 1_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/modul10/Output/Output-soal1.png)
 [penjelasan]
-	This program  reads a user-defined count of inputs (capped at 1000), stores them in a dynamic slice, and iterates through the data to identify and print the smallest and largest values.
+	This program reads a user-defined count of inputs (capped at 1000), stores them in a dynamic slice, and iterates through the data to identify and print the smallest and largest values.
 #### soal2.go
 
 ```go
@@ -97,7 +97,7 @@ func main() {
 ##### Output 
 ![Screenshot Output Unguided 1_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/modul10/Output/Output-soal2.png)
 [penjelasan]
-This Go program reads the number of items x and a grouping size y, then reads a set of x weights, sums them into groups of size y (with the last group potentially smaller), prints the sum of each group, and outputs the average of these group sums.
+This program reads the number of items x and a grouping size y, then reads a set of x weights, sums them into groups of size y (with the last group potentially smaller), prints the sum of each group, and outputs the average of these group sums.
 
 ### 3. [Soal]
 #### soal3.go
@@ -167,4 +167,4 @@ func main() {
 ##### Output 
 ![Screenshot Output Unguided 1_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/modul10/Output/Output-soal3.png)
 [penjelasan]
-	This Go program collects baby weight data, then calculates and displays the minimum, maximum, and average weights from the entered values.
+	This program collects baby weight data, then calculates and displays the minimum, maximum, and average weights from the entered values.
