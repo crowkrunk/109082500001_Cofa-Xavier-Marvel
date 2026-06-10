@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 14 - ... </h1>
+# <h1 align="center">Laporan Praktikum Modul 14 - SORTING </h1>
 <p align="center">[Cofa Xavier Marvel] - [109082500001]</p>
 
 ## Selection sort  
