@@ -385,7 +385,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/modul14/Output/Output-soal4(1).png)
-![Screenshot Output Unguided 1_2](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/modul14/Output/Output-soal4(2).png)
+![Screenshot Output Unguided 1_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/modul14/Output/Output-soal4_(1).png)
+![Screenshot Output Unguided 1_2](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/modul14/Output/Output-soal4_(2).png)
 [penjelasan]
 This program is a library management system that allows users to register books, find the most highly-rated one, sort the collection by rating in descending order, display the top 5 books, and search for books by a specific rating using binary search.
