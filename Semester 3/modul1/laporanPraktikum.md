@@ -1,23 +1,17 @@
 # <h1 align="center">Laporan Praktikum Modul 2 - </h1>
 <p align="center">Cofa Xavier Marvel - 109082500001</p>
 
-## Unguided
+### 1.[soal] 
+#### soal1.cpp
 
-### 1. [Soal]
-#### soal1.go
+```cpp
 
-```go
-package main
-
-import "fmt"
-
-func main() {
-	fmt.Println("Hello World!")
-}
 ```
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1]()
+![Screenshot Output_1]
+()
 [penjelasan]
+
 
