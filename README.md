@@ -1,4 +1,4 @@
-# Repository Praktikum Algoritma Pemrograman 2
+# Repository Praktikum
 
 Nama : Cofa Xavier Marvel
 <br>NIM : 10908250001
