@@ -1,7 +1,7 @@
-# <h1 align="center">Laporan Praktikum Modul 1 - ... </h1>
-<p align="center">[nama] - [NIM]</p>
+# <h1 align="center">Laporan Praktikum Modul 2 - </h1>
+<p align="center">Cofa Xavier Marvel - 109082500001</p>
 
-## Unguided 
+## Unguided
 
 ### 1. [Soal]
 #### soal1.go
@@ -18,6 +18,6 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn/blob/main/modul1/output/output-soal1.png)
+![Screenshot Output Unguided 1_1]()
 [penjelasan]
 
