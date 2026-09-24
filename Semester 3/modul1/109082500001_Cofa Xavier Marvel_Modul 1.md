@@ -7,23 +7,23 @@ Karena ini merupakan laporan praktikum pertama, terdapat kekurangan teori yang m
 
 ### A. Apa saja yang dibahas lagi.<br/>
 
-###1.struktur program.
+### 1.struktur program.
 
-###2.tipe data.
+### 2.tipe data.
 
-###3.variabel.
+### 3.variabel.
 
-###4.konstanta.
+### 4.konstanta.
 
-###5.operator.
+### 5.operator.
 
-###6.operasi I/O.
+### 6.operasi I/O.
 
-###7.struktur kontrol percabangan (if dan switch) serta perulangan.
+### 7.struktur kontrol percabangan (if dan switch) serta perulangan.
 
-###8.ipe data terstruktur (struct).
+### 8.ipe data terstruktur (struct).
 
-###9.pembuatan fungsi dasar.
+### 9.pembuatan fungsi dasar.
 
 <br/>
 
