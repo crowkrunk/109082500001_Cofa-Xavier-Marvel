@@ -5,6 +5,16 @@
 ## Dasar Teori
 Karena ini merupakan laporan praktikum pertama, terdapat kekurangan teori yang mengaitkan materi dengan data terstruktur; sebaliknya, sebagian besar persoalan lebih menyerupai pengenalan ulang.
 
+## A. Apa saja yang dibahas lagi.
+#1.struktur program.
+#2.tipe data.
+#3.variabel.
+#4.konstanta.
+#5.operator.
+#6.operasi I/O.
+#7.struktur kontrol percabangan (if dan switch) serta perulangan.
+#8.ipe data terstruktur (struct).
+#9.pembuatan fungsi dasar.
 ## Guided
 
 ### 1. ...
