@@ -15,6 +15,7 @@ Karena ini merupakan laporan praktikum pertama, terdapat kekurangan teori yang m
 ###7.struktur kontrol percabangan (if dan switch) serta perulangan.
 ###8.ipe data terstruktur (struct).
 ###9.pembuatan fungsi dasar.
+<br/>
 
 ## Guided
 
