@@ -2,16 +2,16 @@
 using namespace std;
 int main(){
 
-    int numberEightSeven, y;
+    int x, y;
     int *pointerToX;
 
-    numberEightSeven = 87;
-    pointerToX = &numberEightSeven;
+    x = 87;
+    pointerToX = &x;
     y = *pointerToX;
     
-    cout << "Alamat numberEightSeven= " << &numberEightSeven << endl;
+    cout << "Alamat x= " << &x << endl;
     cout << "Isi pointerToX= " << pointerToX << endl;
-    cout << "Isi X= " << numberEightSeven << endl;
+    cout << "Isi X= " << x << endl;
     cout << "Nilai yang ditunjuk px= " << *pointerToX << endl;
     cout << "Nilai y= " << y << endl;
 
