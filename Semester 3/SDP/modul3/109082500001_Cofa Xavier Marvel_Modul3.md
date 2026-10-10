@@ -171,11 +171,11 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 1_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/Semester%203/SDP/modul3/output/Soal1.png)
+![Screenshot Output Unguided 1_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/Semester%203/SDP/modul3/Output/Soal1.png)
 
 ##### Output 2
 
-![Screenshot Output Unguided 1_2](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/Semester%203/SDP/modul3/output/Soal1_2.png)
+![Screenshot Output Unguided 1_2](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/Semester%203/SDP/modul3/Output/Soal1_2.png)
 
 penjelasan unguided 1
 Program ini mengumpulkan nama, ID, dan tiga nilai ujian (UTS, UAS, Tugas) untuk maksimal 10 siswa dan menyimpannya dalam array struktur, menghitung nilai akhir mereka menggunakan rata-rata tertimbang (30% UTS, 40% UAS, 30% Tugas), dan kemudian menampilkan semua catatan siswa yang dimasukkan beserta nilai akhir yang telah dihitung.
@@ -242,7 +242,7 @@ int main()
 
 ##### Output 1
 
-![Screenshot Output Unguided 2_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/Semester%203/SDP/modul3/output/Soal2.png)
+![Screenshot Output Unguided 2_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/Semester%203/SDP/modul3/Output/Soal2.png)
 
 penjelasan unguided 2
 Program ini mendemonstrasikan penggunaan struct dasar dengan mendefinisikan tipe pelajaran, menggunakan fungsi untuk mengisinya dengan data, dan fungsi lain untuk menampilkan nama dan kode mata pelajaran.
@@ -324,7 +324,7 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 3_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/Semester%203/SDP/modul3/output/Soal3.png)
+![Screenshot Output Unguided 3_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/Semester%203/SDP/modul3/Output/Soal3.png)
 
 
 penjelasan unguided 3
