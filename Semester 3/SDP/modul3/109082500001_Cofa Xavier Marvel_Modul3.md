@@ -171,7 +171,7 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 1_1]https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/Semester%203/SDP/modul3/output/Soal1.png
+![Screenshot Output Unguided 1_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/Semester%203/SDP/modul3/output/Soal1.png)
 
 ##### Output 2
 
