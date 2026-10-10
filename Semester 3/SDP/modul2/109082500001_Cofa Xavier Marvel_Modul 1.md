@@ -3,7 +3,21 @@
 <p align="center">Cofa Xavier Marvel - 109082500001</p>
 
 ## Dasar Teori
-Teori inti dari sesi praktik ini mencakup penyimpanan variabel ke dalam array, serta konsep pointer, fungsi, prosedur, dan cara pemanggilan parameter.
+
+Struktur data dan manipulasi memori merupakan konsep fundamental dalam pemrograman bahasa C++. Memahami bagaimana data disimpan dan diakses dalam memori komputer sangat penting untuk menulis program yang efisien. Dua konsep utama yang akan dibahas dalam modul ini adalah Array Dua Dimensi (2D Array) dan Pointer.
+
+### A. 2D Array<br/>
+
+Array dua dimensi atau sering disebut juga matriks, adalah salah satu bentuk struktur data yang berisi kumpulan data yang tersusun dalam bentuk baris dan kolom . Array ini merupakan pengembangan dari array satu dimensi, di mana setiap elemen diakses menggunakan dua indeks, yaitu indeks baris dan indeks kolom. Dalam bahasa C++, array dua dimensi disimpan dalam memori secara berurutan, yang berarti elemen-elemen dalam satu baris disimpan secara berdekatan di memori sebelum berpindah ke baris berikutnya .
+
+### B. Pointer dan Alamat Memori<br/>
+
+Pointer adalah sebuah variabel khusus dalam bahasa C++ yang berisi alamat memori dari variabel lain, bukan nilai data secara langsung . Pointer sangat berguna untuk manipulasi memori yang efisien, pengelolaan memori dinamis, dan pengiriman parameter melalui referensi (pass-by-reference) ke fungsi.
+
+#### 1. Operator Alamat (&): Digunakan untuk mendapatkan alamat memori dari sebuah variabel. Contoh: pointer = &variabel; akan menyimpan alamat memori variabel ke dalam pointer.
+
+#### 2. Operator Dereference (*): Digunakan untuk mengakses nilai yang disimpan pada alamat memori yang ditunjuk oleh pointer. Contoh: nilai = *pointer; akan mengambil nilai dari alamat yang ditunjuk pointer dan menyimpannya ke dalam nilai .
+
 
 ## Guided
 
@@ -280,13 +294,22 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 1_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 1_1]https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/Semester%203/SDP/modul2/output/Soal1.png)
 
 ##### Output 2
 
-![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 1_2](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/Semester%203/SDP/modul2/output/Soal1_2.png)
 
 penjelasan unguided 1
+1.Mendeklarasikan tiga matriks 3x3: A, B, dan tiga matriks hasil (addResult, subResult, mulResult).
+2.Mendeklarasikan variabel `char` bernama `choice` untuk menyimpan pilihan operasi pengguna.
+3.Membaca matriks A dari pengguna.
+4.Membaca karakter pilihan (+, -, atau *).
+5.Membaca matriks B dari pengguna.
+6.Menggunakan pernyataan `switch` untuk memanggil fungsi operasi yang sesuai.
+7.Mencetak hasil menggunakan `printMatrix()`.
+8.Mengembalikan nilai 1 jika pilihan tidak valid, atau 0 jika sebaliknya.
+
 
 ### 2. Berdasarkan guided pointer dan reference sebelumnya, buatlah keduanya dapat menukar nilai dari 3 variabel.
 
@@ -295,8 +318,6 @@ penjelasan unguided 1
 using namespace std;
 
 int main(){
-#include <iostream>
-using namespace std;
 
 void swapThreePointer(int *a, int *b, int *c) {
     int temp = *a;
@@ -334,13 +355,12 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-##### Output 2
-
-![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 2_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/Semester%203/SDP/modul2/output/Soal2.png)
 
 penjelasan unguided 2
+Program ini meneruskan alamat (&x) untuk memodifikasi nilai asli melalui dereferensi (*a). Melakukan rotasi nilai ke kiri: a<-b, b<-c, c<-a.
+Menggunakan variabel secara langsung dengan tanda & pada parameter. Logika rotasi sama, namun sintaksis lebih bersih karena tidak memerlukan dereferensi.
+Kedua fungsi: Melakukan rotasi kiri 3 nilai yang identik; penggunaan referensi lebih aman dan lebih mudah dibaca dibandingkan pointer.
 
 ### 3. (isi dengan soal unguided 3)
 
@@ -425,18 +445,19 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 3_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/Semester%203/SDP/modul2/output/Soal3.png)
 
-
-##### Output 2
-
-![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
 penjelasan unguided 3
+Program ini membuat menu operasi untuk sebuah array tetap yang berisi 10 bilangan bulat:
+findMax() / findMin(): Melakukan iterasi pada array dan memperbarui variabel pelacak setiap kali ditemukan nilai yang lebih besar atau lebih kecil.
+calcAverage(): Menjumlahkan seluruh elemen dan menyimpan hasilnya ke dalam variabel eksternal melalui pointer (*avg).
+displayArray(): Menampilkan seluruh elemen dengan pemisah berupa tanda koma.
+main(): Menggunakan perulangan do-while dengan menu untuk memanggil fungsi-fungsi tersebut secara berulang hingga pilihan 5 dimasukkan.
 
 ## Kesimpulan
 
-Operasi matriks menggunakan perulangan untuk penjumlahan atau pengurangan elemen demi elemen serta perulangan bersarang untuk perkalian, dengan hasil yang disimpan dalam matriks ketiga. Pertukaran variabel memanfaatkan *pointer* (*dereferencing*) atau referensi (*ampersand*) untuk memodifikasi nilai asli secara langsung. Fungsi-fungsi *array* melakukan iterasi untuk menemukan nilai minimum (1) dan maksimum (77), sedangkan perhitungan rata-rata (17) memerlukan prosedur *void* dengan metode *pass-by-reference* karena prosedur tersebut tidak dapat mengembalikan nilai. Menu *switch-case* di dalam fungsi main()memungkinkan pengguna untuk menampilkan *array*, mencari nilai maksimum/minimum, atau menghitung rata-rata, sehingga kode tetap bersifat modular dan mudah dikembangkan.
+Operasi matriks menggunakan perulangan untuk penjumlahan atau pengurangan elemen demi elemen serta perulangan bersarang untuk perkalian, dengan hasil yang disimpan dalam matriks ketiga. Pertukaran variabel memanfaatkan pointer atau referensi untuk memodifikasi nilai asli secara langsung. Fungsi-fungsi *array* melakukan iterasi untuk menemukan nilai minimum (1) dan maksimum (77), sedangkan perhitungan rata-rata (17) memerlukan prosedur *void* dengan metode *pass-by-reference* karena prosedur tersebut tidak dapat mengembalikan nilai. Menu *switch-case* di dalam fungsi main()memungkinkan pengguna untuk menampilkan *array*, mencari nilai maksimum/minimum, atau menghitung rata-rata, sehingga kode tetap bersifat modular dan mudah dikembangkan.
 
 ## Referensi
 
