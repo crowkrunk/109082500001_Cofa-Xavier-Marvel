@@ -342,7 +342,7 @@ penjelasan unguided 3
 Main yang menjadi pusat input dan output.
 
 ## Kesimpulan
-Minggu ini saya mempelajari cara membangun ADT dan bagaimana sebuah program dapat menggunakan pointer dan referensi untuk menggunakan ADT tersebut.
+Minggu ini saya mempelajari cara membangun singly linked list dan bagaimana sebuah program dapat membuat operasi-operasi singly linked list untuk menggunakan singly linked list tersebut.
 
 ## Referensi
 
