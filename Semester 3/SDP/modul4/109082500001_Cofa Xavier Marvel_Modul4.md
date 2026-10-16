@@ -335,7 +335,7 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 3_1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/Semester%203/SDP/modul4/output/Soal1.png)
+![Screenshot Output Unguided 1](https://github.com/crowkrunk/109082500001_Cofa-Xavier-Marvel/blob/main/Semester%203/SDP/modul4/Output/Soal1.png)
 
 
 penjelasan unguided 3
