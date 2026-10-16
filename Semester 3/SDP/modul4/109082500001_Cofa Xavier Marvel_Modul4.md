@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 3 - ABSTRACT DATA TYPE (ADT)</h1>
+# <h1 align="center">Laporan Praktikum Modul 4 - SINGLY LINKED LIST</h1>
 
 <p align="center">Cofa Xavier Marvel - 109082500001</p>
 
