@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 3 - ABSTRACT DATA TYPE (ADT)</h1>
+# <h1 align="center">Laporan Praktikum Modul 4 - SINGLY LINKED LIST (BAGIAN SATU)</h1>
 
 <p align="center">Cofa Xavier Marvel - 109082500001</p>
 
@@ -342,7 +342,7 @@ penjelasan unguided 3
 Main yang menjadi pusat input dan output.
 
 ## Kesimpulan
-Minggu ini saya mempelajari cara membangun ADT dan bagaimana sebuah program dapat menggunakan pointer dan referensi untuk menggunakan ADT tersebut.
+Minggu ini saya mempelajari cara membangun singly linked list dan bagaimana sebuah program dapat menggunakan pointer dan referensi untuk menggunakan list tersebut.
 
 ## Referensi
 

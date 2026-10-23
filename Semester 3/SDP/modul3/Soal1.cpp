@@ -46,7 +46,7 @@ int main() {
             break;
         }
 
-        cout << "\n--- Input data for student #" << (n + 1) << " ---\n";
+        cout << "\n--- Input student for student #" << (n + 1) << " ---\n";
         cout << "Name\t: ";
         getline(cin, students[n].name);
 

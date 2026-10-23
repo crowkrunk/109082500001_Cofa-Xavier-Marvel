@@ -13,7 +13,7 @@ struct student {
 };
 
 struct Node {
-    student data;
+    student student;
     address next;
 };
 
@@ -35,4 +35,14 @@ void delAfter(LinkedList &L, address Prev, address P);
 void delLast(LinkedList &L);
 int nbList(LinkedList L);
 void delList(LinkedList &L);
+
+void updateFirst(LinkedList &list);
+void updateLast(LinkedList &list);
+void updateAfter(address &prev);
+void updateByNim(LinkedList &list, string nim);
+
+void FindNodeByData(LinkedList list, string student);
+void FindNodeByAddress(LinkedList list, address node);
+void FindNodeByRanged(LinkedList list, int nilaiAwal, int nilaiAkhir);
+
 #endif
