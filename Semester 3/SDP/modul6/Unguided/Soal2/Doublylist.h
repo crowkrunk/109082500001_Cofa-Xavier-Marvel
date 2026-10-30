@@ -1,0 +1,37 @@
+#ifndef Doublylist_H
+#define Doublylist_H
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+#define Nil NULL
+
+struct infotype {
+    string nopol;
+    string warna;
+    int thnBuat;
+};
+
+typedef struct elmlist *address;
+
+struct elmlist {
+    infotype info;
+    address next;
+    address prev;
+};
+
+struct List {
+    address first;
+    address last;
+};
+
+void CreateList(List &L);
+address alokasi(infotype x);
+void dealokasi(address &P);
+void printInfo(List L);
+void insertLast(List &L, address P);
+address findElm(List L, infotype x);
+
+#endif
