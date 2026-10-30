@@ -3,7 +3,7 @@
 <p align="center">Cofa Xavier Marvel - 109082500001</p>
 
 ## Dasar Teori
-Linked list adalah struktur data berupa serangkaian elemen data yang saling berkait dan tumbuh dan mengerut sesuai kebutuhan.
+Pencarian adalah proses yang mengunjungi setiap node dan berhenti setelah node yang diinginkan ditemukan. Dengan melakukan operasi pencarian, operasi seperti penyisipan setelah, penghapusan setelah, dan pembaruan menjadi lebih mudah.
 
 ## Guided
 
@@ -609,7 +609,7 @@ Main yang pangil fungsi untuk membuat, nampil info, cari suatu elemen dalam list
 penjelasan
 
 ## Kesimpulan
-Yang saya lakukan adalah membuat file header, implementasi, dan proyek utama yang sederhana untuk lebih memahami pengorganisasian kode, dengan banyak pemikiran praktis menggunakan pointer ke struct untuk membuat linked list tunggal.
+Yang saya lakukan adalah membuat daftar singly linked list dengan operasi basic, kemudian membuat dua fungsi baru yaitu findElm dan giveSum. findElm adalah algoritma pencarian yang menelusuri daftar berantai tunggal dengan kompleksitas waktu O(n), dan giveSum hanya menggunakan algoritma iteratif findElm untuk menelusuri daftar, menjumlahkan semua informasi yang ditunjuk oleh node bantuan.
 ## Referensi
 
 [1] Triase. (2020). Diktat Edisi Revisi : STRUKTUR DATA. Medan: UNIVERSTAS ISLAM NEGERI SUMATERA UTARA MEDAN.
