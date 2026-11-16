@@ -60,6 +60,8 @@ void insertLast(linkedlist &List, address nodeBaru)
         nodeBaru->prev = List.last;
         List.last->next = nodeBaru;
         List.last = nodeBaru;
+        nodeBaru->next = Nil;
+
     }
     cout << "Node " << nodeBaru->isidata.nama << " berhasil ditambahkan sebagai node terakhir list" << endl;
 }
@@ -442,10 +444,8 @@ void deleteNode(linkedlist &List, address target)
     }
     else
     {
-        address L = target->prev;
-        address R = target->next;
-        L->next = R;
-        R->prev = L;
+        target->prev->next = target->next;
+        target->next->prev = target->prev;
         target->next = Nil;
         target->prev = Nil;
         cout << "Node " << target->isidata.nama << " berhasil dihapus dari tengah list." << endl;
