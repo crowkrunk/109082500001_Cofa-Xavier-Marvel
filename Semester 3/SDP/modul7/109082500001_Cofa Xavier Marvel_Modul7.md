@@ -645,7 +645,7 @@ void getInputStream(S &s)
     }
 }
 ```
-
+Implemintasi
 
 ```cpp
 #include <iostream>
